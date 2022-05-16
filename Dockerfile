@@ -11,6 +11,6 @@ EXPOSE 8000
 COPY . .
 
 # Install Python requirements using Pip.
-
+RUN pip install -r requirements.txt
 
 # Run FastAPI server on the port exposed above.
